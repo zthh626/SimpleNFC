@@ -40,7 +40,6 @@ final class PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        print("INMEMORY", inMemory)
         container = NSPersistentContainer(name: "SimpleNFC")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
