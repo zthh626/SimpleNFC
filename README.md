@@ -17,20 +17,17 @@
 
 ## Screenshots
 
-![Write & Read NFC Tags](Screenshots/write-read-nfcs.png)
-_Write & Read NFC Tags_
-
-![Save & Manage NFC Data](Screenshots/save-manage.png)
-_Save & Manage NFC Data_
-
-![Ready to Scan](Screenshots/ready-to-scan.png)
-_Ready to Scan_
+<div>
+   <img src="Screenshots/write-read-nfcs.png" alt="Write & Read NFC Tags" width="300" height="650" />
+   <img src="Screenshots/save-manage.png" alt="Save & Manage NFC Data" width="300" height="650" />
+   <img src="Screenshots/ready-to-scan.png" alt="Ready to Scan" width="300" height="650" />
+</div>
 
 ## Requirements
 
-- iOS 14.0+
-- Xcode 12.0+
-- Swift 5.3+
+- iOS 15.0+
+- Xcode 15.0+
+- SwiftUI 3.0+
 
 ## Installation
 
