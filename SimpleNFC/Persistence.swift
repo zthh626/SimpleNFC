@@ -7,15 +7,24 @@
 
 import CoreData
 
-struct PersistenceController {
+final class PersistenceController {
     static let shared = PersistenceController()
 
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
+            var newItem = NFCData(context: viewContext)
+            
+            newItem.id = UUID()
             newItem.timestamp = Date()
+            newItem.last_accessed = Date()
+            
+            newItem.format = 1
+            newItem.record_type = "exampleRecordType".data(using: .utf8)
+            
+            newItem.identifier = "exampleIdentifier".data(using: .utf8)
+            newItem.payload = "examplePayload".data(using: .utf8)
         }
         do {
             try viewContext.save()
@@ -31,6 +40,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
+        print("INMEMORY", inMemory)
         container = NSPersistentContainer(name: "SimpleNFC")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")

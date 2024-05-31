@@ -8,21 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		FAA61D7B2C0167A600C8682F /* SimpleNFCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61D7A2C0167A600C8682F /* SimpleNFCApp.swift */; };
-		FAA61D7D2C0167A600C8682F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61D7C2C0167A600C8682F /* ContentView.swift */; };
+		FAA61D7D2C0167A600C8682F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61D7C2C0167A600C8682F /* HomeView.swift */; };
 		FAA61D7F2C0167A800C8682F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA61D7E2C0167A800C8682F /* Assets.xcassets */; };
 		FAA61D822C0167A800C8682F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA61D812C0167A800C8682F /* Preview Assets.xcassets */; };
 		FAA61D842C0167A800C8682F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61D832C0167A800C8682F /* Persistence.swift */; };
 		FAA61D872C0167A800C8682F /* SimpleNFC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA61D852C0167A800C8682F /* SimpleNFC.xcdatamodeld */; };
+		FAA61D922C01A77800C8682F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61D912C01A77800C8682F /* HomeViewModel.swift */; };
+		FAA61D942C01A9B800C8682F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61D932C01A9B800C8682F /* Alert.swift */; };
+		FAA61D982C04504500C8682F /* ToggleModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61D972C04504500C8682F /* ToggleModeView.swift */; };
+		FAA61DA12C0667EF00C8682F /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61DA02C0667EF00C8682F /* XDismissButton.swift */; };
+		FAA61DA32C066C6300C8682F /* DetailedNFCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61DA22C066C6300C8682F /* DetailedNFCView.swift */; };
+		FAA61DA52C066DDB00C8682F /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61DA42C066DDB00C8682F /* MockData.swift */; };
+		FAA61DA82C06839A00C8682F /* DetailedNFCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61DA72C06839A00C8682F /* DetailedNFCViewModel.swift */; };
+		FAA61DAD2C068F5100C8682F /* NFCDataCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61DAC2C068F5100C8682F /* NFCDataCellView.swift */; };
+		FAA61DB02C06A6A600C8682F /* CurrentNDEFMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61DAF2C06A6A600C8682F /* CurrentNDEFMessage.swift */; };
+		FAA61DB22C07DFBE00C8682F /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA61DB12C07DFBE00C8682F /* EmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAA61D772C0167A600C8682F /* SimpleNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA61D7A2C0167A600C8682F /* SimpleNFCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNFCApp.swift; sourceTree = "<group>"; };
-		FAA61D7C2C0167A600C8682F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA61D7C2C0167A600C8682F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FAA61D7E2C0167A800C8682F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA61D812C0167A800C8682F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA61D832C0167A800C8682F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FAA61D862C0167A800C8682F /* SimpleNFC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleNFC.xcdatamodel; sourceTree = "<group>"; };
+		FAA61D8F2C0174AA00C8682F /* SimpleNFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleNFC.entitlements; sourceTree = "<group>"; };
+		FAA61D902C0174C000C8682F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAA61D912C01A77800C8682F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FAA61D932C01A9B800C8682F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		FAA61D972C04504500C8682F /* ToggleModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleModeView.swift; sourceTree = "<group>"; };
+		FAA61DA02C0667EF00C8682F /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		FAA61DA22C066C6300C8682F /* DetailedNFCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedNFCView.swift; sourceTree = "<group>"; };
+		FAA61DA42C066DDB00C8682F /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		FAA61DA72C06839A00C8682F /* DetailedNFCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedNFCViewModel.swift; sourceTree = "<group>"; };
+		FAA61DAC2C068F5100C8682F /* NFCDataCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCDataCellView.swift; sourceTree = "<group>"; };
+		FAA61DAF2C06A6A600C8682F /* CurrentNDEFMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentNDEFMessage.swift; sourceTree = "<group>"; };
+		FAA61DB12C07DFBE00C8682F /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +77,14 @@
 		FAA61D792C0167A600C8682F /* SimpleNFC */ = {
 			isa = PBXGroup;
 			children = (
+				FAA61DAE2C06A69800C8682F /* Models */,
+				FAA61DAA2C06891200C8682F /* Utilities */,
+				FAA61D9E2C0667D600C8682F /* Views */,
+				FAA61D992C045A4000C8682F /* Screens */,
+				FAA61D902C0174C000C8682F /* Info.plist */,
+				FAA61D8F2C0174AA00C8682F /* SimpleNFC.entitlements */,
 				FAA61D7A2C0167A600C8682F /* SimpleNFCApp.swift */,
-				FAA61D7C2C0167A600C8682F /* ContentView.swift */,
+				FAA61DA42C066DDB00C8682F /* MockData.swift */,
 				FAA61D7E2C0167A800C8682F /* Assets.xcassets */,
 				FAA61D832C0167A800C8682F /* Persistence.swift */,
 				FAA61D852C0167A800C8682F /* SimpleNFC.xcdatamodeld */,
@@ -71,6 +99,76 @@
 				FAA61D812C0167A800C8682F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA61D992C045A4000C8682F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FAA61DA62C06838900C8682F /* DetailedNFCView */,
+				FAA61D9A2C045A4700C8682F /* HomeView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FAA61D9A2C045A4700C8682F /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				FAA61D912C01A77800C8682F /* HomeViewModel.swift */,
+				FAA61D7C2C0167A600C8682F /* HomeView.swift */,
+				FAA61DAC2C068F5100C8682F /* NFCDataCellView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		FAA61D9E2C0667D600C8682F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA61D9F2C0667DB00C8682F /* Buttons */,
+				FAA61D972C04504500C8682F /* ToggleModeView.swift */,
+				FAA61DB12C07DFBE00C8682F /* EmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAA61D9F2C0667DB00C8682F /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FAA61DA02C0667EF00C8682F /* XDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		FAA61DA62C06838900C8682F /* DetailedNFCView */ = {
+			isa = PBXGroup;
+			children = (
+				FAA61DA72C06839A00C8682F /* DetailedNFCViewModel.swift */,
+				FAA61DA22C066C6300C8682F /* DetailedNFCView.swift */,
+			);
+			path = DetailedNFCView;
+			sourceTree = "<group>";
+		};
+		FAA61DAA2C06891200C8682F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FAA61DAB2C06891700C8682F /* Alert */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FAA61DAB2C06891700C8682F /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				FAA61D932C01A9B800C8682F /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		FAA61DAE2C06A69800C8682F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAA61DAF2C06A6A600C8682F /* CurrentNDEFMessage.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +241,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA61D982C04504500C8682F /* ToggleModeView.swift in Sources */,
 				FAA61D842C0167A800C8682F /* Persistence.swift in Sources */,
-				FAA61D7D2C0167A600C8682F /* ContentView.swift in Sources */,
+				FAA61D922C01A77800C8682F /* HomeViewModel.swift in Sources */,
+				FAA61D7D2C0167A600C8682F /* HomeView.swift in Sources */,
+				FAA61DAD2C068F5100C8682F /* NFCDataCellView.swift in Sources */,
 				FAA61D7B2C0167A600C8682F /* SimpleNFCApp.swift in Sources */,
+				FAA61DA82C06839A00C8682F /* DetailedNFCViewModel.swift in Sources */,
+				FAA61DA32C066C6300C8682F /* DetailedNFCView.swift in Sources */,
 				FAA61D872C0167A800C8682F /* SimpleNFC.xcdatamodeld in Sources */,
+				FAA61DA12C0667EF00C8682F /* XDismissButton.swift in Sources */,
+				FAA61D942C01A9B800C8682F /* Alert.swift in Sources */,
+				FAA61DA52C066DDB00C8682F /* MockData.swift in Sources */,
+				FAA61DB22C07DFBE00C8682F /* EmptyStateView.swift in Sources */,
+				FAA61DB02C06A6A600C8682F /* CurrentNDEFMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,17 +385,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleNFC/SimpleNFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleNFC/Preview Content\"";
 				DEVELOPMENT_TEAM = N4BW4883W5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleNFC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple NFC";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Need NFC capabilities to read and write to NFC cards and readers.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +409,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = alexhuang.SimpleNFC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,17 +424,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleNFC/SimpleNFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleNFC/Preview Content\"";
 				DEVELOPMENT_TEAM = N4BW4883W5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleNFC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple NFC";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Need NFC capabilities to read and write to NFC cards and readers.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +448,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = alexhuang.SimpleNFC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
