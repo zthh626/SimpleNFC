@@ -5,6 +5,7 @@
 **Simple NFC Utilities** is an iOS application built with SwiftUI, designed to provide a streamlined and efficient way to read and write NFC tags. This open-source project focuses on simplicity and ease of use, eliminating unnecessary bloatware to deliver a clean user experience.
 
 [Blog explaining the development process](https://zthh.dev/blogs/simplenfc-corenfc-coredata-guide)
+
 [Project page explaining goals](https://zthh.dev/projects/simple-nfc-utilities)
 
 ## Features
