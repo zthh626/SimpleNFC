@@ -8,6 +8,8 @@
 
 [Project page explaining goals](https://zthh.dev/projects/simple-nfc-utilities)
 
+<a href="https://apple.co/3yLLlCI?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 150px; height: 50px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1717372800" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 50px;"></a>
+
 ## Features
 
 - **Read NFC Tags:** Quickly scan and retrieve information from NFC tags.
